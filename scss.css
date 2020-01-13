@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Nobile:400,700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: #191919;
+  font-family: 'Nobile';
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 2em;
+  height: 100vh;
+}
+
+.mountains, .trees {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.mountains {
+  top: 0;
+}
+
+.trees {
+  top: 18%;
+}
+/*# sourceMappingURL=scss.css.map */
